@@ -2,7 +2,7 @@
 #
 # Matt Jones 2013
 #
-# Output a basic set of records for the domain
+# Output a basic set of zone records for the domain.
 # Usage: ./details.sh <mydomain.org>
 
 . ./rsdns_functions.sh
