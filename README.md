@@ -8,7 +8,7 @@ to automate some tasks, but they may be useful to others.  Have at it. Contribut
 feedback are all welcome.
 
 * Contributors: Matthew Jones
-* Bug reports: http://github.com
+* Bug reports: http://github.com/mbjones/rsdns/issues
 
 License
 -------
