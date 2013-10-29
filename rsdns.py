@@ -52,7 +52,7 @@ def main():
 
 # Parse our command line arguments
 def options():
-    parser = argparse.ArgumentParser(description='Commandline tool for managing DNS zones')
+    parser = argparse.ArgumentParser(description='Commandline tool for managing DNS zones.', epilog='Execution depends on a credentials file containing the username and apikey to be present in the working directory.')
     parser.add_argument('cmd', help='Command to be executed', choices=['list', 'records', 'create','update','delete','import','deldomain'])
     parser.add_argument('domain', help='Name of the domain on which to act', nargs='?')
     parser.add_argument('host', help='Hostname to be created or updated', nargs='?')
