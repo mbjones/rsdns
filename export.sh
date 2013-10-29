@@ -29,3 +29,4 @@ while [ "$STATUS" != "COMPLETED" ]; do
 done
 
 xmlstarlet sel -N ns2=$NS2 -T -t -m "/ns2:asyncResponse" -v "ns2:response/ns2:contents" --nl $TMP
+rm $TMP
