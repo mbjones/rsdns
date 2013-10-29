@@ -1,4 +1,9 @@
 #!/bin/sh
+#
+# Matt Jones 2013
+#
+# Authenticate using the credentials in a the provided file
+# Usage: ./auth.sh
 
 TMP=auth-response.xml
 CRED=credentials
